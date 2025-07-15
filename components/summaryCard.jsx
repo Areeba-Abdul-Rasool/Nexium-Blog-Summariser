@@ -15,7 +15,7 @@ export default function SummaryCard({ url, english, urdu }) {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="max-w-4xl mx-auto mt-10 bg-white border-2 border-purple-100 rounded-2xl shadow-md p-6 md:p-8 space-y-6"
+      className="max-w-4xl mx-auto mt-10 bg-gradient-to-br from-purple-50 to-white border-2 border-purple-100 rounded-2xl shadow-md p-6 md:p-8 space-y-6"
     >
       <div className="flex items-center text-sm text-gray-500 gap-2 break-all">
         <a
@@ -33,7 +33,7 @@ export default function SummaryCard({ url, english, urdu }) {
       <div className="space-y-2">
         <h2 className="text-lg font-semibold text-gray-800 flex items-center justify-between">
           <span className="flex items-center gap-2 text-purple-700">
-           English Summary
+            English Summary
           </span>
           <Copy
             className="w-5 h-5 text-gray-500 cursor-pointer hover:text-purple-700"
@@ -48,7 +48,7 @@ export default function SummaryCard({ url, english, urdu }) {
       <div className="space-y-2">
         <h2 className="text-lg font-semibold text-gray-800 flex items-center justify-between">
           <span className="flex items-center gap-2 text-purple-700">
-          اردو خلاصہ
+            اردو خلاصہ
           </span>
           <Copy
             className="w-5 h-5 text-gray-500 cursor-pointer hover:text-purple-700"
